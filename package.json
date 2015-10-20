@@ -1,0 +1,32 @@
+{
+  "browserify": {
+    "transform": [
+      ["coffee-reactify", {"coffeeout": true}],
+      "coffeeify"
+    ]
+  },
+  "devDependencies": {
+    "react": "~0.14.0",
+    "react-dom": "~0.14.0",
+    "flux": "~2.0.0",
+    "browserify": "~5.10.1",
+    "coffeeify": "~1.1.0",
+    "coffee-reactify": "~4.0.0",
+    "vinyl-source-stream": "~0.1.1",
+    "watchify": "~1.0.2",
+    "pretty-hrtime": "~0.2.1",
+    "browser-sync": "~2.7.1",
+    "gulp": "~3.9.0",
+    "gulp-less": "~1.3.5",
+    "gulp-changed": "~1.0.0",
+    "gulp-imagemin": "~1.0.1",
+    "gulp-notify": "~1.5.0",
+    "gulp-open": "~0.2.8",
+    "gulp-util": "~3.0.0",
+    "gulp-concat": "~2.6.0",
+    "events": "~1.0.2",
+    "keymirror": "~0.1.1",
+    "merge": "~1.2.0",
+    "classnames": "~2.2.0"
+  }
+}
