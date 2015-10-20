@@ -36,9 +36,7 @@ gulp.task('browserify', function() {
   return bundle();
 });
 
-gulp.task('build', ['browserify']);
-
-gulp.task('browserSync', ['build'], function() {
+gulp.task('browserSync', ['browserify'], function() {
   browserSync.init(['build/**'], {server: {baseDir: 'build'}});
 });
 
